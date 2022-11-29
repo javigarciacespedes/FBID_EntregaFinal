@@ -1,0 +1,7 @@
+[2022-11-29 18:17:42,453] INFO [Log partition=flight_delay_classification_request-0, dir=/tmp/kafka-logs] Rolled new log segment at offset 9 in 1 ms. (kafka.log.Log)
+[2022-11-29 18:17:42,454] INFO [Log partition=flight_delay_classification_request-0, dir=/tmp/kafka-logs] Deleting segment LogSegment(baseOffset=0, size=3114, lastModifiedTime=1668458042282, largestRecordTimestamp=Some(1668458042281)) due to retention time 604800000ms breach based on the largest record timestamp in the segment (kafka.log.Log)
+[2022-11-29 18:17:42,457] INFO [Log partition=flight_delay_classification_request-0, dir=/tmp/kafka-logs] Incremented log start offset to 9 due to segment deletion (kafka.log.Log)
+[2022-11-29 18:18:42,456] INFO [Log partition=flight_delay_classification_request-0, dir=/tmp/kafka-logs] Deleting segment files LogSegment(baseOffset=0, size=3114, lastModifiedTime=1668458042282, largestRecordTimestamp=Some(1668458042281)) (kafka.log.Log$)
+[2022-11-29 18:18:42,457] INFO Deleted log /tmp/kafka-logs/flight_delay_classification_request-0/00000000000000000000.log.deleted. (kafka.log.LogSegment)
+[2022-11-29 18:18:42,457] INFO Deleted offset index /tmp/kafka-logs/flight_delay_classification_request-0/00000000000000000000.index.deleted. (kafka.log.LogSegment)
+[2022-11-29 18:18:42,457] INFO Deleted time index /tmp/kafka-logs/flight_delay_classification_request-0/00000000000000000000.timeindex.deleted. (kafka.log.LogSegment)
